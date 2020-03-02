@@ -93,7 +93,10 @@
   font-weight: 500;
 }
 
-/* доделать сверху */
+.portfolio-navigation ul a:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
 
 .images-wrapper {
   height: 669px;
@@ -155,4 +158,116 @@
 
 .img-12 {
   background-image: url("./assets/images/img12.png");
+}
+
+.about-wrapper {
+  width: 1020px;
+  height: 733px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  border-bottom: 5px solid #ffffff;
+}
+
+.about-description {
+  width: 940px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  
+}
+
+.about-description h2 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+  padding-top: 59px;
+  margin-left: 1px;
+  word-spacing: -0.06em;
+  margin-bottom: 18px; 
+}
+
+.about-description p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #767e9e;
+  word-spacing: -0.05em;
+  letter-spacing: -0.007em;
+  line-height: 1.7;
+  margin-bottom: 45px;
+}
+
+.people {
+  width: 940px;
+  height: 455px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.people h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #666d89;
+  margin-top: 11px;
+}
+
+.people p {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #767e9e;
+  letter-spacing: -0.012em;
+  margin-top: 8px;
+  line-height: 1.8;
+}
+
+.social-wrapper {
+  margin: 24px 0 0 1px;
+}
+
+.social-list li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.item-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #666d89;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.icon-facebook,
+.icon-google,
+.icon-twitter,
+.icon-linkedin {
+  background-color: #f2f2f2;
+  color: #666d89;
+}
+
+.icon-facebook:hover {
+  background-color: #3a559f;
+  color:#ffffff;
+}
+
+.icon-google:hover {
+  background-color: #dc4e41;
+  color: #ffffff;
+}
+
+.icon-twitter:hover {
+  background-color: #50abf1;
+  color: #ffffff;
+}
+
+.icon-linkedin:hover {
+  background-color: #007bb5;
+  color: #ffffff;
 }
