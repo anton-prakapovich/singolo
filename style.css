@@ -465,8 +465,6 @@ header {
   background-image: url("./assets/images/img12.png");
 }
 
-
-
 .about-wrapper {
   width: 1020px;
   height: 735px;
@@ -578,8 +576,6 @@ header {
   color: #ffffff;
 }
 
-
-
 .quote-wrapper {
   width: 1020px;
   height: 654px;
@@ -594,7 +590,6 @@ header {
   font-weight: 900;
   color: #f0d8d9;
   padding: 59px 0 0 40px;
-  /* letter-spacing: -0.0045em; */
   word-spacing: -0.03em;
 }
 
@@ -666,7 +661,33 @@ header {
   padding-left: 15px;
 }
 
+.first-input::-moz-placeholder,
+.first-input:-moz-placeholder,
+.second-input::-moz-placeholder,
+.second-input:-moz-placeholder,
+.third-input::-moz-placeholder,
+.third-input:-moz-placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #f48c8f;
+  padding-bottom: 2px;
+  padding-left: 15px;
+}
+
 .message::placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #f48c8f;
+  padding-bottom: 2px;
+  padding-left: 15px;
+  padding-top: 10px;
+  letter-spacing: -0.0012em;
+}
+
+.message::-moz-placeholder,
+.message:-moz-placeholder {
   font-family: "Lato", sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -686,8 +707,6 @@ header {
   color: #f08586;
   margin-top: 16px;
 }
-
-
 
 .contact-information h3 {
   font-family: "Lato", sans-serif;
@@ -735,8 +754,6 @@ header {
   height: 15px;
   text-align: center;
 }
-
-
 
 .footer-wrapper {
   width: 1020px;
