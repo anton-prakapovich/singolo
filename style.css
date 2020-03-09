@@ -618,6 +618,8 @@ header {
   background: #d6564f;
   color: #f08586;
   margin-top: 4px;
+  padding-bottom: 2px;
+  padding-left: 15px;
 }
 
 .second-input {
@@ -628,6 +630,8 @@ header {
   background: #d6564f;
   color: #f08586;
   margin-top: 16px;
+  padding-bottom: 2px;
+  padding-left: 15px;
 }
 
 .third-input {
@@ -638,6 +642,13 @@ header {
   background: #d6564f;
   color: #f08586;
   margin-top: 16px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+}
+
+.message {
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
 .submit-input {
@@ -657,22 +668,6 @@ header {
   font-size: 12px;
   font-weight: 400;
   color: #f48c8f;
-  padding-bottom: 2px;
-  padding-left: 15px;
-}
-
-.first-input::-moz-placeholder,
-.first-input:-moz-placeholder,
-.second-input::-moz-placeholder,
-.second-input:-moz-placeholder,
-.third-input::-moz-placeholder,
-.third-input:-moz-placeholder {
-  font-family: "Lato", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: #f48c8f;
-  padding-bottom: 2px;
-  padding-left: 15px;
 }
 
 .message::placeholder {
@@ -681,20 +676,6 @@ header {
   font-weight: 400;
   color: #f48c8f;
   padding-bottom: 2px;
-  padding-left: 15px;
-  padding-top: 10px;
-  letter-spacing: -0.0012em;
-}
-
-.message::-moz-placeholder,
-.message:-moz-placeholder {
-  font-family: "Lato", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: #f48c8f;
-  padding-bottom: 2px;
-  padding-left: 15px;
-  padding-top: 10px;
   letter-spacing: -0.0012em;
 }
 
