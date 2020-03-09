@@ -668,6 +668,7 @@ header {
   font-size: 12px;
   font-weight: 400;
   color: #f48c8f;
+  opacity: 1;
 }
 
 .message::placeholder {
@@ -677,6 +678,7 @@ header {
   color: #f48c8f;
   padding-bottom: 2px;
   letter-spacing: -0.0012em;
+  opacity: 1;
 }
 
 .message {
